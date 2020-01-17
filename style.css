@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0 auto;
+    font-family: cursive;
+    font-size: 14px;
+    width: 100%;
+    max-width: 1200px;
+    background-color: lightslategray;
+}
+
+header {
+    background-color: darkslateblue;
+    position: sticky;
+    top: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 90px;
+    color: gold;
+    text-align: center;
+}
+    
+h1 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: inline-flex
+}
+
+.navbar li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.navbar li:hover {
+    border-bottom: 2px solid gold;
+}
+
+.navItem {
+    color: gold;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: grey;
+    padding-bottom: 50px;
+}
+
+.myPic {
+    justify-self: center;
+    margin-top: 100px;
+}
+
+.myPic img {
+    border-radius: 100px;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.facts {
+    margin-left: 15px;
+}
+
+.develop {
+    margin-left: 15px;
+}
+
+.contact {
+    margin-left: 15px;
+}
+
+footer {
+    display: grid;
+    background-color: darkslateblue;
+    height: 60px;
+    color: gold;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.footer {
+    display: grid;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.me {
+    grid-column: 1;
+    align-self: center;
+}
+
+.contacts {
+    grid-column: 2;
+}
+
+.contacts a {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-vk {
+    color: blue;
+}
